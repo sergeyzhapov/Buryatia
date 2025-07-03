@@ -486,15 +486,17 @@ class GameScene2(Scene):
             else:
                 self.f2_text_visible = True
                 self.f1_text_visible = False
-                self.f1_sound.play()
+                self.f2_sound.play()
 
     def show_fact(self):
         if self.current_fact == 'f1':
             self.f1_text_visible = True
             self.f2_text_visible = False
+            self.f1_sound.play()
         else:
             self.f2_text_visible = True
             self.f1_text_visible = False
+            self.f2_sound.play()
         self.hello_visible = False
         self.show_hello_first_time = False
         self.hello_sound.stop()
@@ -690,15 +692,17 @@ class GameScene3(Scene):
             else:
                 self.f2_text_visible = True
                 self.f1_text_visible = False
-                self.f1_sound.play()
+                self.f2_sound.play()
 
     def show_fact(self):
         if self.current_fact == 'f1':
             self.f1_text_visible = True
             self.f2_text_visible = False
+            self.f1_sound.play()
         else:
             self.f2_text_visible = True
             self.f1_text_visible = False
+            self.f2_sound.play()
         self.hello_visible = False
         self.show_hello_first_time = False
         self.hello_sound.stop()
@@ -862,15 +866,17 @@ class GameScene4(Scene):
             else:
                 self.f2_text_visible = True
                 self.f1_text_visible = False
-                self.f1_sound.play()
+                self.f2_sound.play()
 
     def show_fact(self):
         if self.current_fact == 'f1':
             self.f1_text_visible = True
             self.f2_text_visible = False
+            self.f1_sound.play()
         else:
             self.f2_text_visible = True
             self.f1_text_visible = False
+            self.f2_sound.play()
         self.hello_visible = False
         self.show_hello_first_time = False
         self.hello_sound.stop()
@@ -1074,15 +1080,17 @@ class GameScene5(Scene):
             else:
                 self.f2_text_visible = True
                 self.f1_text_visible = False
-                self.f1_sound.play()
+                self.f2_sound.play()
 
     def show_fact(self):
         if self.current_fact == 'f1':
             self.f1_text_visible = True
             self.f2_text_visible = False
+            self.f1_sound.play()
         else:
             self.f2_text_visible = True
             self.f1_text_visible = False
+            self.f2_sound.play()
         self.hello_visible = False
         self.show_hello_first_time = False
         self.hello_sound.stop()
