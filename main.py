@@ -158,10 +158,10 @@ class GameScene1(Scene):
                    self.next_btn, self.location
                    ]
                 
-        self.f1_btn = pg.Button(random.randint(20, 200), random.randint(20, 180), 40, 40, "?", self.toggle_f1_text, 
+        self.f1_btn = pg.Button(random.randint(10, 350), random.randint(10, 40), 40, 40, "?", self.toggle_f1_text, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
-        self.f2_btn = pg.Button(random.randint(600, 780), random.randint(20, 180), 40, 40, "?", self.toggle_f2_text, 
+        self.f2_btn = pg.Button(random.randint(410, 750), random.randint(10, 40), 40, 40, "?", self.toggle_f2_text, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
         
@@ -426,10 +426,10 @@ class GameScene2(Scene):
                    self.next_btn, self.location
                    ]
         
-        self.f1_btn = pg.Button(random.randint(20, 200), random.randint(20, 180), 40, 40, "?", self.on_f1_click, 
+        self.f1_btn = pg.Button(random.randint(10, 350), random.randint(90, 120), 40, 40, "?", self.on_f1_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
-        self.f2_btn = pg.Button(random.randint(600, 780), random.randint(20, 180), 40, 40, "?", self.on_f2_click, 
+        self.f2_btn = pg.Button(random.randint(410, 750), random.randint(90, 120), 40, 40, "?", self.on_f2_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
         
@@ -646,10 +646,10 @@ class GameScene3(Scene):
                    self.next_btn, self.location
                    ]
 
-        self.f1_btn = pg.Button(random.randint(20, 200), random.randint(40, 180), 40, 40, "?", self.on_f1_click, 
+        self.f1_btn = pg.Button(random.randint(10, 350), random.randint(330, 360), 40, 40, "?", self.on_f1_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
-        self.f2_btn = pg.Button(random.randint(600, 780), random.randint(40, 180), 40, 40, "?", self.on_f2_click, 
+        self.f2_btn = pg.Button(random.randint(410, 750), random.randint(330, 360), 40, 40, "?", self.on_f2_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
         
@@ -809,10 +809,10 @@ class GameScene4(Scene):
                    self.next_btn, self.location
                    ]
 
-        self.f1_btn = pg.Button(random.randint(20, 180), random.randint(20, 180), 40, 40, "?", self.on_f1_click, 
+        self.f1_btn = pg.Button(random.randint(10, 350), random.randint(170, 200), 40, 40, "?", self.on_f1_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
-        self.f2_btn = pg.Button(random.randint(600, 780), random.randint(20, 180), 40, 40, "?", self.on_f2_click, 
+        self.f2_btn = pg.Button(random.randint(410, 750), random.randint(170, 200), 40, 40, "?", self.on_f2_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
         
@@ -1034,10 +1034,10 @@ class GameScene5(Scene):
                    self.next_btn, self.location
                    ]
 
-        self.f1_btn = pg.Button(random.randint(20, 200), random.randint(20, 180), 40, 40, "?", self.on_f1_click, 
+        self.f1_btn = pg.Button(random.randint(10, 190), random.randint(250, 280), 40, 40, "?", self.on_f1_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
-        self.f2_btn = pg.Button(random.randint(600, 780), random.randint(20, 180), 40, 40, "?", self.on_f2_click, 
+        self.f2_btn = pg.Button(random.randint(410, 750), random.randint(250, 280), 40, 40, "?", self.on_f2_click, 
                                text_color=BLACK, border_radius=15, 
                                color=PURPLE, border_color=PURPLE)
         
